@@ -1,0 +1,245 @@
+/*!
+ * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 200px;
+    background: url('../img/logo.png') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-top: 10px;
+}
+
+.navbar-inverse {
+    background-color: #1b1c20;
+}
+
+.nav>li>span {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #ffffff;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.title {
+    float: left;
+    max-width: 30%;
+}
+
+.title-right {
+    float: right;
+    max-width: 30%;
+}
+
+.accent strong{
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #222222;
+    color: #ffffff;
+    padding: 5px 15px;
+}
+
+.desc {
+    font-size: 20px;
+}
+
+.tagline {
+    text-shadow: 0 0 3px #fff;
+    color: #333;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.phones {
+    display: none;
+    text-align: right;
+    margin-top: 18px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn-lg {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #dc0911;
+    border-color: #a62c39;
+}
+
+.btn-lg:hover, .btn-lg:focus {
+    color: #ffffff;
+    background-color: #222222;
+    border-color: #222222;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+#advantages {  }
+#advantages ul { list-style:none;
+padding-left: 0;}
+#advantages ul li { font-size:26px; }
+#advantages ul li a {
+    cursor: pointer;
+    display: block;
+    width: 410px;
+    height: 50px;
+    background-color: #333;
+    border-left: 10px solid #222;
+    border-right: 10px solid #222;
+    border-bottom: 1px solid #4d4d4d;
+    padding-left: 15px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#advantages ul li a.double {
+    height: 80px;
+}
+
+#advantages ul li a.tripple {
+    height: 120px;
+}
+
+#advantages ul li a:hover {
+    /*-moz-transform:rotate(-5deg);
+    -moz-box-shadow:10px 10px 20px #000000;
+    -webkit-transform:rotate(-5deg);
+    -webkit-box-shadow:10px 10px 20px #000000;
+    transform:rotate(-5deg);
+    box-shadow:10px 10px 20px #000000;*/
+    background-color: #dc0911;
+}
+
+#advantages ul li a.link-item:hover {
+    background-color: #dc0911;
+}
+
+a, a:hover {
+    color: #dc0911;
+}
+
+#jump_types {
+    font-size: 20px;
+}
+
+input.option:checked + span{
+    color: #ff0000;
+}
+
+.address_link a {
+    color: #333;
+}
+
+.address_link span {
+    color: #ff0000;
+    font-size: 16px;
+}
+
+.address_phone strong {
+    display: block;
+}
+
+p.discount {
+    font-weight: 700;
+    font-size: 40px;
+    color: #ff0000;
+}
+
+strong.oldprice {
+    font-size: 40px;
+}
+h2.accent {
+    color: #ff0000;
+    font-weight: 700;
+}
+.accent strong.discount {
+    background-color: #ff0000;
+    white-space: nowrap;
+}
+
+mark {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.embed-responsive {
+    margin-bottom: 15px;
+}
+
+.nopadding
+{
+    padding: 0;
+}
+
+.no-link-style, .no-link-style:hover, .no-link-style:focus, .no-link-style:visited
+{
+    color: #333;
+    cursor: default;
+    text-decoration: none;
+}
+
+.no-link-style:hover
+{
+    cursor: pointer;
+    color: #ff0000;
+}
+
+.social-part p
+{
+    text-align: right;
+}
+
+.social-part p a img
+{
+    width: 32px;
+}
+
+.note
+{
+    margin: 20px 0 10px 0;
+    color: #aaa;
+    font-size: 18px;
+}
+
+.header-phones .nav li a {
+    padding: 15px 15px 10px 15px;
+}
+
+.header-phones .nav li a:hover {
+    background: none;
+    color: #ffffff;
+}
+
+.header-phones li {
+    float: left;
+}
+@media (max-width: 768px) {
+    .header-phones {
+        float: none !important;
+    }
+    .header-phones .nav li a {
+        padding: 0px 15px 10px 15px;
+    }
+}
